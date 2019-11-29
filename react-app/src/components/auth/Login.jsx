@@ -1,7 +1,7 @@
 import React from 'react';
 import { ToastContainer } from 'react-toastr';
 
-import { Grid, Form, FormGroup, Col, Button } from 'react-bootstrap';
+import { Container, Form, FormGroup, Col, Button } from 'react-bootstrap';
 
 import FormInputField from '../common/formComponents/FormInputField';
 
@@ -56,7 +56,7 @@ class Login extends React.Component {
 
 	render () {
 		return (
-			<Grid>
+			<Container>
 
 				<ToastContainer
 					ref={ref => this.toastContainer = ref}
@@ -90,7 +90,7 @@ class Login extends React.Component {
 						</FormGroup>
 					</Form>
 				</Col>
-			</Grid>
+			</Container>
 
 		);
 	}
