@@ -3,7 +3,7 @@ import { withRouter } from 'react-router-dom';
 
 import { ToastContainer } from 'react-toastr';
 
-import { Container, Form, FormGroup, Col, Button } from 'react-bootstrap';
+import { Grid, Form, FormGroup, Col, Button } from 'react-bootstrap';
 
 import FormInputField from '../common/formComponents/FormInputField';
 
@@ -61,7 +61,7 @@ class Register extends React.Component {
 	render () {
 
 		return (
-			<Container>
+			<Grid>
 				<ToastContainer
 					ref={ref => this.toastContainer = ref}
 					className="toast-bottom-right"
@@ -105,7 +105,7 @@ class Register extends React.Component {
 						</FormGroup>
 					</Form>
 				</Col>
-			</Container>
+			</Grid>
 
 		);
 	}
