@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Image, Row, Col } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 
 class ImageGallery extends React.Component {
 	constructor (props) {

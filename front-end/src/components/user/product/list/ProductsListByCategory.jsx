@@ -1,17 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Col, Row, Grid, Breadcrumb, Accordion, Button } from 'react-bootstrap';
+import { Col, Row, Grid, Breadcrumb } from 'react-bootstrap';
 import { ToastContainer } from 'react-toastr';
 
 // Partials
 import ProductCard from './partials/ProductCard';
 
 // Services
-import productsService from '../../../../services/products/productsService';
 import categoryService from '../../../../services/categories/categoryService';
 
 // Constants
-import { RESOLUTIONS, PRODUCT } from '../../../../data/constants/componentConstants';
+import { RESOLUTIONS } from '../../../../data/constants/componentConstants';
 
 class ProductsListByCategory extends React.Component {
 	constructor (props) {

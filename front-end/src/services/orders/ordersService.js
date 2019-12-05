@@ -1,7 +1,5 @@
 import requesterService from '../requester';
 
-import utils from '../../utils/utils';
-
 const deliveryDataEndPoint = '/deliveryData';
 const orderEndPoint = '/orders';
 const auth = 'admin';

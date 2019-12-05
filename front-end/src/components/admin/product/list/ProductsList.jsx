@@ -1,26 +1,20 @@
 import React from 'react';
+import { Col, Grid, Row, Table } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { ToastContainer } from 'react-toastr';
-import { Grid, Row, Col, Table } from 'react-bootstrap';
-
-// Partials
-import TableHead from './partials/TableHead';
-import ProductTableRow from './partials/ProductTableRow';
-import Paging from '../../../common/pagination/Paging';
-import FormSelectField from '../../../common/formComponents/FormSelectField';
-import FormInputWithDropdown from '../../../common/formComponents/FormInputWithDropdown';
-
+import { ADMIN_PRODUCTS_FILTER_OPTIONS, ELEMENTS_ON_PAGE, FILTER_INPUT_WAIT_INTERVAL, TOASTR_MESSAGES } from '../../../../data/constants/componentConstants';
 // Services
 import productsService from '../../../../services/products/productsService';
+import FormInputWithDropdown from '../../../common/formComponents/FormInputWithDropdown';
+import FormSelectField from '../../../common/formComponents/FormSelectField';
+import Paging from '../../../common/pagination/Paging';
+import ProductTableRow from './partials/ProductTableRow';
+// Partials
+import TableHead from './partials/TableHead';
 
-import {
-	ELEMENTS_ON_PAGE,
-	ADMIN_PRODUCTS_FILTER_OPTIONS,
-	FILTER_INPUT_WAIT_INTERVAL,
-	TOASTR_MESSAGES
-} from '../../../../data/constants/componentConstants';
 
-import SortableProducts from '../../category/reOrder/partials/SortableProducts';
+
+
 
 class ProductsList extends React.Component {
 	constructor (props) {

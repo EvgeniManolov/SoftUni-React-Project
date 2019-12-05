@@ -3,7 +3,7 @@ import React from 'react';
 import {ToastContainer} from 'react-toastr';
 import { Link } from 'react-router-dom';
 
-import {Button, Grid, Row, Col, Table, Tabs, Tab} from 'react-bootstrap';
+import { Grid, Row, Col, Table, Tabs, Tab} from 'react-bootstrap';
 
 import TableHead from './partials/TableHead';
 import CategoryTableRow from './partials/CategoryTableRow';
@@ -19,11 +19,9 @@ import {
     ADMIN_CATEGORIES_FILTER_OPTIONS,
     FILTER_INPUT_WAIT_INTERVAL,
     TOASTR_MESSAGES,
-    CATEGORY_OR_SUBCATEGORY,
     BUTTONS_BG
 } from '../../../../data/constants/componentConstants';
 
-import Header from "../../../common/Header";
 
 class CategoriesList extends React.Component {
     constructor(props) {

@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 
 import utils from '../../../../../utils/utils';
 
-import { BUTTONS_BG } from '../../../../../data/constants/componentConstants';
-
 class PromoTableRow extends React.Component {
 	constructor (props) {
 		super(props);

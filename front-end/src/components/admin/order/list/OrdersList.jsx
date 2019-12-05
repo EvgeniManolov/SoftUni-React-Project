@@ -1,6 +1,6 @@
 import React from 'react';
 import { ToastContainer } from 'react-toastr';
-import { Grid, Row, Col, Table, FormGroup, Tab, Tabs } from 'react-bootstrap';
+import { Grid, Row, Col, Tab, Tabs } from 'react-bootstrap';
 
 import OrdersTable from './partials/OrdersTable';
 import OrderTableRow from './partials/OrderTableRow';
@@ -12,7 +12,6 @@ import ordersService from '../../../../services/orders/ordersService';
 
 import {
 	ORDER_STATUS_EN,
-	ORDER_STATUS_BG,
 	ELEMENTS_ON_PAGE,
 	TOASTR_MESSAGES
 } from '../../../../data/constants/componentConstants';

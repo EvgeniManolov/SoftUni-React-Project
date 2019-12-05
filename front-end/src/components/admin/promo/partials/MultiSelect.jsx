@@ -8,8 +8,6 @@ class MultiSelect extends React.Component {
 	}
 
 	render () {
-		// the checkboxes can be arbitrarily deep. They will always be fetched and
-		// attached the `name` attribute correctly. `value` is optional
 
 		const {name, allProducts, onChange, selectedProductsIds} = this.props;
 
@@ -30,7 +28,7 @@ class MultiSelect extends React.Component {
 					<label key={e.id} className='col-xs-12 col-sm-4 col-md-3 '>
 						<p className={style}>
 							<Checkbox value={e.id} hidden/>
-							<img className="image-thumbnail" src={e.images[imageIndex]}/>
+							<img className="image-thumbnail" alt="" src={e.images[imageIndex]}/>
 							{e.name}
 						</p>
 					</label>);

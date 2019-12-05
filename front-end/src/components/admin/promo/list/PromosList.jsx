@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { ToastContainer } from 'react-toastr';
 import { confirmAlert } from 'react-confirm-alert';
-import { Grid, Row, Col, Table, Tabs, Tab } from 'react-bootstrap';
+import { Grid, Table, Tabs, Tab } from 'react-bootstrap';
 
 // Partials
 import TableHead from './partials/PromosTableHead';
