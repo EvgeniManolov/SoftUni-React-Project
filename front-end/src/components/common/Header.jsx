@@ -68,7 +68,7 @@ class Header extends React.Component {
 			return (
 				<nav className="navbar navbar-default navbar-fixed-top admin" id="main-menu">
 					<span className="navbar-brand admin">
-						<span>P</span>
+						<span>React</span>
 					</span>
 
 					<button type="button"
