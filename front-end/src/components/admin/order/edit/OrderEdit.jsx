@@ -50,13 +50,6 @@ class OrderEdit extends React.Component {
 								email: dd.email,
 								phone: dd.phoneNumber
 							},
-							ekontDetails: {
-								country: dd.officeCountry || '',
-								city: dd.officeCity || '',
-								officeCode: dd.officeCode || '',
-								officeName: dd.officeName || '',
-								address: dd.officeAddress || ''
-							},
 							addressDetails: {
 								country: dd.country || '',
 								city: dd.city || '',

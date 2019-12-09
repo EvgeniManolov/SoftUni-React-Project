@@ -6,7 +6,6 @@ import CartTableHeader from '../products/partials/CartTableHeader';
 import CartTableFooter from '../products/partials/CartTableFooter';
 import CartProductRow from '../products/partials/CartProductRow';
 
-import EkontOrderDetailsSummary from './partials/EkontOrderDetailsSummary';
 import AddressOrderDetailsSummary from './partials/AddressOrderDetailsSummary';
 import RecipientDetailsSummary from './partials/RecipientDetailsSummary';
 
@@ -76,11 +75,8 @@ class ReviewOrder extends React.Component {
 
 		let recipient = this.props.orderDetails.recipientInfo;
 
-		let deliveryDetails = this.props.orderDetails.ekontDetails;
-
-		if (this.props.orderDetails.toAddress) {
-			deliveryDetails = this.props.orderDetails.addressDetails;
-		}
+		let deliveryDetails = this.props.orderDetails.addressDetails;
+		
 
 		let products;
 		let presents;
@@ -120,10 +116,7 @@ class ReviewOrder extends React.Component {
 				<RecipientDetailsSummary recipient={recipient}/>
 
 
-				{this.props.orderDetails.toAddress
-					? <AddressOrderDetailsSummary deliveryDetails={deliveryDetails}/>
-					: <EkontOrderDetailsSummary deliveryDetails={deliveryDetails}/>
-				}
+				<AddressOrderDetailsSummary deliveryDetails={deliveryDetails}/>
 
 				<Col sm={4}>
 					{this.props.orderDetails.comment

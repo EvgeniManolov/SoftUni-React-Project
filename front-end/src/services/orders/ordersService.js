@@ -110,7 +110,6 @@ function generateProductsData (products) {
 function generateDeliveryDetailsData (data) {
 
 	let recipientInfo = data.recipientInfo;
-	let ekontDetails = data.ekontDetails;
 	let addressDetails = data.addressDetails;
 	let comment = data.comment;
 	let toAddress = data.toAddress;
@@ -135,11 +134,6 @@ function generateDeliveryDetailsData (data) {
 		Floor: addressDetails.floor,
 		Apartment: addressDetails.apartment,
 		Comments: comment,
-		DeliveredToAnOffice: !toAddress,
-		OfficeAddress: ekontDetails.address,
-		OfficeCode: ekontDetails.officeCode,
-		OfficeName: ekontDetails.officeName,
-		OfficeCountry: ekontDetails.country,
-		OfficeCity: ekontDetails.city
+		DeliveredToAnOffice: !toAddress
 	};
 }
