@@ -109,9 +109,9 @@ class Contact extends React.Component {
 				/>
 
 				<p className="text-center">
-					<strong>Армоник ЕООД</strong> е вносител на американските магнитни клипсове.<br/>
-					адрес: гр. София, ж.к. Стрелбище, ул. "Йордан Йовков" 13<br/>
-					тел. 0888 170 767
+					<strong>React-app</strong><br/>
+					адрес: гр. София, ж.к. Гео Милев, ул. "Галилео Галилей"<br/>
+				
 				</p>
 				<hr/>
 
