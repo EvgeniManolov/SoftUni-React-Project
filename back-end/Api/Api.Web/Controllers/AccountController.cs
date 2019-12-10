@@ -36,10 +36,6 @@
         [Route("api/")]
         public async Task<IActionResult> Hello()
         {
-            //this.products.CheckProductPlacesAndUpdate();
-
-            //this.categories.CheckCategoryOrderAndInsertPlaces();
-
             return this.Ok("Hello from Api");
         }
 

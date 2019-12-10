@@ -59,18 +59,6 @@
                 return this.BadRequest(ModelState);
             }
 
-            //SettingsViewEditModel settings = await this.settings.Get();
-
-            //this.HttpContext
-            //    .Response
-            //    .Headers
-            //    .Add("Access-Control-Expose-Headers", "ApiSettings");
-
-            //this.HttpContext
-            //    .Response
-            //    .Headers
-            //    .Add("ApiSettings", JsonConvert.SerializeObject(settings.Settings));
-
             try
             {
                 return await function();

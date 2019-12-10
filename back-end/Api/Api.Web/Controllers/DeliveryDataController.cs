@@ -30,18 +30,6 @@
 
                 return this.Ok(new { deliveryData = data });
             }); 
-
-            //try
-            //{
-            //    DeliveryDataDetailsModel data = await this.deliveryData.Get(id);
-
-            //    return this.Ok(new { deliveryData = data });
-            //}
-
-            //catch (Exception e)
-            //{
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
 
         //post api/deliverydata
@@ -56,23 +44,6 @@
 
                 return this.Ok(new { deliveryDataId = deliveryDataId });
             });
-
-            //if (!ModelState.IsValid) return this.BadRequest(ModelState);
-
-            //try
-            //{
-            //    string deliveryDataId = await this.deliveryData
-            //        .Create(
-            //        data);
-
-            //    return this.Ok(new { deliveryDataId = deliveryDataId });
-            //}
-
-            //catch (Exception e)
-            //{
-
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
 
         //put api/deliverydata/id
@@ -87,27 +58,6 @@
 
                 return this.Ok(new { deliveryDataId = id });
             });
-
-            //if (!this.IsInRole("admin"))
-            //{
-            //    return this.StatusCode(StatusCodes.Status401Unauthorized);
-            //}
-
-            //if (!ModelState.IsValid) return this.BadRequest(ModelState);
-
-            //try
-            //{
-            //    await this.deliveryData.Edit(id, data);
-
-            //    return this.Ok(new { deliveryDataId = id });
-            //}
-
-            //catch (Exception e)
-            //{
-
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
-
         }
     }
 }

@@ -36,9 +36,6 @@
         {
             if (action == null) throw new ArgumentException(ErrorMessages.InvalidArguments);
 
-            //authentication not implemented yet
-            //if (!this.db.Users.Any(u => u.Id == userId)) throw new ArgumentException(ErrorMessages.InvalidUserId);
-
             if(!this.db.Orders.Any(o => o.Id == orderId)) throw new ArgumentException(ErrorMessages.InvalidOrderId);
 
             OrderLog log = new OrderLog

@@ -49,28 +49,6 @@
 
                 return this.Ok("Content has been modified");
             });
-
-            //if (!this.IsInRole("admin"))
-            //{
-            //    return this.StatusCode(StatusCodes.Status401Unauthorized);
-            //}
-
-            //if (!ModelState.IsValid)
-            //{
-            //    return this.BadRequest(ModelState);
-            //}
-
-            //try
-            //{
-            //    await this.homeContent.ModifyArticle(content);
-
-            //    return this.Ok("Content has been modified");
-            //}
-
-            //catch (Exception e)
-            //{
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
 
         [Authorize]
@@ -84,28 +62,6 @@
 
                 return this.Ok(new { carouselItemId = carouselItemId });
             });
-
-            //if (!this.IsInRole("admin"))
-            //{
-            //    return this.StatusCode(StatusCodes.Status401Unauthorized);
-            //}
-
-            //if (!ModelState.IsValid)
-            //{
-            //    return this.BadRequest(ModelState);
-            //}
-
-            //try
-            //{
-            //    string carouselItemId = await this.homeContent.CreateCarouselItem(item);
-
-            //    return this.Ok(new { carouselItemId = carouselItemId });
-            //}
-
-            //catch (Exception e)
-            //{
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
 
         [Authorize]
@@ -119,28 +75,6 @@
 
                 return this.Ok(new { carouselItemId = id });
             });
-
-            //if (!this.IsInRole("admin"))
-            //{
-            //    return this.StatusCode(StatusCodes.Status401Unauthorized);
-            //}
-
-            //if (!ModelState.IsValid)
-            //{
-            //    return this.BadRequest(ModelState);
-            //}
-
-            //try
-            //{
-            //    await this.homeContent.EditCarouselItem(id, item);
-
-            //    return this.Ok(new { carouselItemId = id });
-            //}
-
-            //catch (Exception e)
-            //{
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
 
         [Authorize]
@@ -154,23 +88,6 @@
 
                 return this.Ok(Messages.CarouselItemDeletionConfirmation);
             });
-
-            //if (!this.IsInRole("admin"))
-            //{
-            //    return this.StatusCode(StatusCodes.Status401Unauthorized);
-            //}
-
-            //try
-            //{
-            //    await this.homeContent.DeleteCarouselItem(id);
-
-            //    return this.Ok(Messages.CarouselItemDeletionConfirmation);
-            //}
-
-            //catch (Exception e)
-            //{
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
 
         [HttpGet]
@@ -183,18 +100,6 @@
 
                 return this.Ok(new { carouselItem = item });
             });
-
-            //try
-            //{
-            //    CarouselItemDetailsModel item = await this.homeContent.GetCarouselItem(id);
-
-            //    return this.Ok(new { carouselItem = item });
-            //}
-
-            //catch (Exception e)
-            //{
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
 
         [HttpGet]
@@ -207,18 +112,6 @@
 
                 return this.Ok(new { carouselItems = items });
             });
-
-            //try
-            //{
-            //    IEnumerable<CarouselItemDetailsModel> items = await this.homeContent.GetAllCarouselItems();
-
-            //    return this.Ok(new { carouselItems = items });
-            //}
-
-            //catch (Exception e)
-            //{
-            //    return this.StatusCode(StatusCodes.Status400BadRequest, e.Message);
-            //}
         }
     }
 }
