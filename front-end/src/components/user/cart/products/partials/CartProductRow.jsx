@@ -47,7 +47,7 @@ class CartProductRow extends React.Component {
 			<div className="products-table-row">
 
 				<div className="img-col">
-					<img className="image-thumbnail" src={p.image}/>
+					<img className="image-thumbnail" src={p.image} alt=""/>
 				</div>
 
 				<div className="product-data">

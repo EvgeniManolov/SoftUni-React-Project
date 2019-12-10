@@ -1,13 +1,12 @@
 import React from 'react';
 
-import { Col, FormControl, ControlLabel, FormGroup, InputGroup, Button } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import { confirmAlert } from 'react-confirm-alert';
 
 // Partials
 import CartTableHeader from './partials/CartTableHeader';
 import CartProductRow from './partials/CartProductRow';
 import CartTableFooter from './partials/CartTableFooter';
-import FormInputField from '../../../common/formComponents/FormInputField';
 import FormInputWithAddOn from '../../../common/formComponents/FormInputWithAddOn';
 
 import {

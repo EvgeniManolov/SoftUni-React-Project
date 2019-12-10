@@ -7,7 +7,6 @@ import React from 'react';
 
 //external components
 import { Link } from 'react-router-dom';
-import { Col } from 'react-bootstrap';
 import { confirmAlert } from 'react-confirm-alert';
 
 //services

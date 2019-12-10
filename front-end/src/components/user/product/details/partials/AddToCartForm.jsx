@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { FormGroup, ControlLabel, FormControl, Col, Row, Button, Form } from 'react-bootstrap';
+import { FormGroup, FormControl, Col, Row} from 'react-bootstrap';
 
 import { PRODUCT } from '../../../../../data/constants/componentConstants';
 

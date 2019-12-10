@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import ordersService from '../../../../../services/orders/ordersService';
 
-import { ORDER_STATUS_BG, ORDER_STATUS_EN } from '../../../../../data/constants/componentConstants';
+import { ORDER_STATUS_BG } from '../../../../../data/constants/componentConstants';
 import utils from '../../../../../utils/utils';
 
 class OrderTableRow extends React.Component {

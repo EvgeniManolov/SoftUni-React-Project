@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Row, Col, PageHeader, Label } from 'react-bootstrap';
+import { Row, Col, PageHeader } from 'react-bootstrap';
 
 import { PRODUCT, CURRENCY } from '../../../../../data/constants/componentConstants';
 

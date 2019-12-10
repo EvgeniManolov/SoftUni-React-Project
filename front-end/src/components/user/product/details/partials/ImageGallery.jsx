@@ -61,7 +61,8 @@ class ImageGallery extends React.Component {
 
 					<img ref={this.mainImage}
 					     src={this.state.selected}
-					     className="main-image"/>
+					     className="main-image"
+						 alt=""/>
 
 					<div className="gallery-controls">
 						<button

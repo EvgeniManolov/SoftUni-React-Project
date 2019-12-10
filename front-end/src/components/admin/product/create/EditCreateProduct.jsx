@@ -309,7 +309,7 @@ class CreateProduct extends React.Component {
 							onChange={this.handleChange}/>
 
 
-						{!(this.state.selectedCategories.length > 0 && this.state.selectedCategories[0].label == ' ') &&
+						{!(this.state.selectedCategories.length > 0 && this.state.selectedCategories[0].label === ' ') &&
 						<div className="product-category-select">
 							<h4>Категория</h4>
 							<MultiSelect
@@ -320,7 +320,7 @@ class CreateProduct extends React.Component {
 						</div>
 						}
 
-						{!(this.state.selectedSubcategories.length > 0 && this.state.selectedSubcategories[0].label == ' ') &&
+						{!(this.state.selectedSubcategories.length > 0 && this.state.selectedSubcategories[0].label === ' ') &&
 						<div className="product-category-select">
 							<h4>Подкатегория</h4>
 							<MultiSelect

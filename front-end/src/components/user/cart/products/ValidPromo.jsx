@@ -157,7 +157,7 @@ class ValidPromo extends React.Component {
 					return (
 						<div key={p.id} className="present">
 							<div className="image-container">
-								<img src={p.image}/>
+								<img src={p.image} alt=""/>
 							</div>
 							<p className="present-name">{p.name}</p>
 							<button className="btn-custom default xs"

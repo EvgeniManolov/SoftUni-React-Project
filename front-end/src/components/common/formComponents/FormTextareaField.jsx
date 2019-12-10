@@ -17,7 +17,7 @@ class FormTextareaField extends React.Component {
 
 
 	render () {
-		const {label, name, value, required, onChange, defaultValue, rows, cols, placeholder} = this.props;
+		const {label, name, required, onChange, defaultValue, rows, cols} = this.props;
 
 		return (
 			<FormGroup controlId={name}>

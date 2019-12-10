@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Grid, Clearfix } from 'react-bootstrap';
+import { Grid } from 'react-bootstrap';
 
 import homeContentService from '../../../../../services/homeContent/homeContentService';
 
@@ -51,7 +51,7 @@ class AboutProduct extends React.Component {
 
 
 						<div className="article-image">
-							<img src="/images/show/home-content.png"/>
+							<img src="/images/show/home-content.png" alt=""/>
 						</div>
 
 						<div className="article-content bg-white">

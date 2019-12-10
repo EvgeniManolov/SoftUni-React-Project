@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Grid, Row, Col, Label, Panel } from 'react-bootstrap';
+import { Grid, Panel, Col } from 'react-bootstrap';
 import { ToastContainer } from 'react-toastr';
 import { confirmAlert } from 'react-confirm-alert';
 

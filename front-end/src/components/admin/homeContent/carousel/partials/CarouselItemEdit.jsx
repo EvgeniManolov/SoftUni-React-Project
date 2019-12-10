@@ -1,6 +1,6 @@
 import React from 'react';
 import { ToastContainer } from 'react-toastr';
-import { Grid, Row, Col, Image, Button } from 'react-bootstrap';
+import { Grid, Col, Image } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 //Partials
