@@ -1,0 +1,55 @@
+const testimonials = [
+	{
+		authorId: 1,
+		name: 'Кирил',
+		lastName: 'Аврамов',
+		age: '41',
+		city: 'Стара Загора',
+		testimonial: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.',
+		imageUrl: '',
+		datePosted: '15 Април 2018',
+	},
+	{
+		authorId: 2,
+		name: 'Анелия',
+		lastName: 'Живкова',
+		age: '53',
+		city: 'София',
+		testimonial: 'Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+		imageUrl: '',
+		datePosted: '16 Януари 2018',
+	},
+	{
+		authorId: 3,
+		name: 'Славина',
+		lastName: 'Йорданова',
+		age: '34',
+		city: 'София',
+		testimonial: 'In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo!',
+		imageUrl: '',
+		datePosted: '03 Март 2018',
+	},
+	{
+		authorId: 4,
+		name: 'Гинка',
+		lastName: 'Драгоева',
+		age: '63',
+		city: 'Габрово',
+		testimonial: 'Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.',
+		imageUrl: '',
+		datePosted: '18 Март 2018',
+	},
+	{
+		authorId: 5,
+		name: 'Димитър',
+		lastName: 'Ангелов',
+		age: '38',
+		city: 'София',
+		testimonial: 'Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero.',
+		imageUrl: '',
+		datePosted: '03 Май 2018',
+	},
+
+];
+
+export default testimonials;
