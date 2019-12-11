@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check for html changes 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AddImageForm />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bsClass": "form-group",
+      "children": Array [
+        <ControlLabel
+          bsClass="control-label"
+          srOnly={false}
+/>,
+        <InputGroup
+          bsClass="input-group"
+>
+          <FormControl
+                    bsClass="form-control"
+                    componentClass="input"
+                    onChange={[Function]}
+                    type="text"
+                    value=""
+          />
+          <InputGroupButton
+                    bsClass="input-group-btn"
+          >
+                    <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+                              bsStyle="default"
+                              disabled={false}
+                              onClick={[Function]}
+                    >
+                              Добави
+                    </Button>
+          </InputGroupButton>
+</InputGroup>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "control-label",
+          "children": undefined,
+          "srOnly": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "input-group",
+          "children": Array [
+            <FormControl
+              bsClass="form-control"
+              componentClass="input"
+              onChange={[Function]}
+              type="text"
+              value=""
+/>,
+            <InputGroupButton
+              bsClass="input-group-btn"
+>
+              <Button
+                            active={false}
+                            block={false}
+                            bsClass="btn"
+                            bsStyle="default"
+                            disabled={false}
+                            onClick={[Function]}
+              >
+                            Добави
+              </Button>
+</InputGroupButton>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-control",
+              "componentClass": "input",
+              "onChange": [Function],
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "input-group-btn",
+              "children": <Button
+                active={false}
+                block={false}
+                bsClass="btn"
+                bsStyle="default"
+                disabled={false}
+                onClick={[Function]}
+>
+                Добави
+</Button>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "block": false,
+                "bsClass": "btn",
+                "bsStyle": "default",
+                "children": "Добави",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": "Добави",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bsClass": "form-group",
+        "children": Array [
+          <ControlLabel
+            bsClass="control-label"
+            srOnly={false}
+/>,
+          <InputGroup
+            bsClass="input-group"
+>
+            <FormControl
+                        bsClass="form-control"
+                        componentClass="input"
+                        onChange={[Function]}
+                        type="text"
+                        value=""
+            />
+            <InputGroupButton
+                        bsClass="input-group-btn"
+            >
+                        <Button
+                                    active={false}
+                                    block={false}
+                                    bsClass="btn"
+                                    bsStyle="default"
+                                    disabled={false}
+                                    onClick={[Function]}
+                        >
+                                    Добави
+                        </Button>
+            </InputGroupButton>
+</InputGroup>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "control-label",
+            "children": undefined,
+            "srOnly": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "input-group",
+            "children": Array [
+              <FormControl
+                bsClass="form-control"
+                componentClass="input"
+                onChange={[Function]}
+                type="text"
+                value=""
+/>,
+              <InputGroupButton
+                bsClass="input-group-btn"
+>
+                <Button
+                                active={false}
+                                block={false}
+                                bsClass="btn"
+                                bsStyle="default"
+                                disabled={false}
+                                onClick={[Function]}
+                >
+                                Добави
+                </Button>
+</InputGroupButton>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-control",
+                "componentClass": "input",
+                "onChange": [Function],
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "input-group-btn",
+                "children": <Button
+                  active={false}
+                  block={false}
+                  bsClass="btn"
+                  bsStyle="default"
+                  disabled={false}
+                  onClick={[Function]}
+>
+                  Добави
+</Button>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "active": false,
+                  "block": false,
+                  "bsClass": "btn",
+                  "bsStyle": "default",
+                  "children": "Добави",
+                  "disabled": false,
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Добави",
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
