@@ -1,0 +1,288 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Comment />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bsClass": "row",
+      "children": <Col
+        bsClass="col"
+        componentClass="div"
+        sm={8}
+>
+        <FormGroup
+                bsClass="form-group"
+                controlId={undefined}
+        >
+                <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+                >
+                        Коментар
+                </ControlLabel>
+                <FormControl
+                        bsClass="form-control"
+                        componentClass="textarea"
+                        name="comment"
+                        onChange={[Function]}
+                        value={undefined}
+                />
+        </FormGroup>
+</Col>,
+      "componentClass": "div",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bsClass": "col",
+        "children": <FormGroup
+          bsClass="form-group"
+          controlId={undefined}
+>
+          <ControlLabel
+                    bsClass="control-label"
+                    srOnly={false}
+          >
+                    Коментар
+          </ControlLabel>
+          <FormControl
+                    bsClass="form-control"
+                    componentClass="textarea"
+                    name="comment"
+                    onChange={[Function]}
+                    value={undefined}
+          />
+</FormGroup>,
+        "componentClass": "div",
+        "sm": 8,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "form-group",
+          "children": Array [
+            <ControlLabel
+              bsClass="control-label"
+              srOnly={false}
+>
+              Коментар
+</ControlLabel>,
+            <FormControl
+              bsClass="form-control"
+              componentClass="textarea"
+              name="comment"
+              onChange={[Function]}
+              value={undefined}
+/>,
+          ],
+          "controlId": undefined,
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "control-label",
+              "children": "Коментар",
+              "srOnly": false,
+            },
+            "ref": null,
+            "rendered": "Коментар",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "form-control",
+              "componentClass": "textarea",
+              "name": "comment",
+              "onChange": [Function],
+              "value": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bsClass": "row",
+        "children": <Col
+          bsClass="col"
+          componentClass="div"
+          sm={8}
+>
+          <FormGroup
+                    bsClass="form-group"
+                    controlId={undefined}
+          >
+                    <ControlLabel
+                              bsClass="control-label"
+                              srOnly={false}
+                    >
+                              Коментар
+                    </ControlLabel>
+                    <FormControl
+                              bsClass="form-control"
+                              componentClass="textarea"
+                              name="comment"
+                              onChange={[Function]}
+                              value={undefined}
+                    />
+          </FormGroup>
+</Col>,
+        "componentClass": "div",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "col",
+          "children": <FormGroup
+            bsClass="form-group"
+            controlId={undefined}
+>
+            <ControlLabel
+                        bsClass="control-label"
+                        srOnly={false}
+            >
+                        Коментар
+            </ControlLabel>
+            <FormControl
+                        bsClass="form-control"
+                        componentClass="textarea"
+                        name="comment"
+                        onChange={[Function]}
+                        value={undefined}
+            />
+</FormGroup>,
+          "componentClass": "div",
+          "sm": 8,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "form-group",
+            "children": Array [
+              <ControlLabel
+                bsClass="control-label"
+                srOnly={false}
+>
+                Коментар
+</ControlLabel>,
+              <FormControl
+                bsClass="form-control"
+                componentClass="textarea"
+                name="comment"
+                onChange={[Function]}
+                value={undefined}
+/>,
+            ],
+            "controlId": undefined,
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "control-label",
+                "children": "Коментар",
+                "srOnly": false,
+              },
+              "ref": null,
+              "rendered": "Коментар",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "form-control",
+                "componentClass": "textarea",
+                "name": "comment",
+                "onChange": [Function],
+                "value": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": false,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
