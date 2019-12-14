@@ -22,6 +22,7 @@ We commit to keeping the breaking changes minimal so you can upgrade react-scrip
 Folder Structure
 After creation, your project should look like this:
 
+
 my-app/
   README.md
   node_modules/
