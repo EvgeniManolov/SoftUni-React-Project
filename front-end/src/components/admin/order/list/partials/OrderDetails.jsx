@@ -70,7 +70,6 @@ class OrderDetails extends React.Component {
 				<div className={this.state.showDetails ? 'order-info visible' : 'order-info'}>
 					<Row>
 						<Col xs={12}>
-							<h4>{LABELS_BG.orderNumber} <Label bsStyle="success">{o.number}</Label><Label bsStyle="info">Промо: ReadeREST</Label></h4>
 							<p className="">
 								<small className="text-grey">{LABELS_BG.lastModification}:</small>
 								&nbsp;{utils.formatDate(o.lastModificationDate)}

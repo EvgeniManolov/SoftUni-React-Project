@@ -303,7 +303,7 @@ class EditCreateProductPromo extends React.Component {
 						</Col>
 					</Row>
 
-					<Row>
+					{/* <Row>
 						<Col xs={12}>
 							<Checkbox checked={this.state.isAccumulative}
 							          name="isAccumulative"
@@ -321,7 +321,7 @@ class EditCreateProductPromo extends React.Component {
 								Включвай отстъпки от други промоции
 							</Checkbox>
 						</Col>
-					</Row>
+					</Row> */}
 
 					<Row>
 						<Col xs={12}>
